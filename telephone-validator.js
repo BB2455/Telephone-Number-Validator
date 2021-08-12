@@ -3,7 +3,7 @@ function telephoneCheck(str) {
   return regex.test(str);
 }
 
-console.log(telephoneCheck("555-555-5555"));
-console.log(telephoneCheck("1 (555) 555-5555"));
-console.log(telephoneCheck("5555555555"));
-console.log(telephoneCheck("555-5555"));
+console.log(telephoneCheck("555-555-5555")); // true
+console.log(telephoneCheck("1 (555) 555-5555")); // true
+console.log(telephoneCheck("5555555555")); // true
+console.log(telephoneCheck("555-5555")); // false
